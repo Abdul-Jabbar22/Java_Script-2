@@ -926,7 +926,7 @@
   
 //  what is the substring method 
 
-var str = "Apple ,banana , mango";
+// var str = "Apple ,banana , mango";
 
-let res = str.substring(0,4)
-console.log(res);
+// let res = str.substring(0,4)
+// console.log(res);
