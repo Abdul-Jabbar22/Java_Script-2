@@ -826,13 +826,107 @@
 
 // reduce method 
 
-let arr = [5,6,2];
+// let arr = [5,6,2];
 
-let sum = arr.reduce((accumulator,current,index,arr)=>{
-  return accumulator *= current;
+// let sum = arr.reduce((accumulator,current,index,arr)=>{
+//     debugger;
+//   return accumulator *= current;
    
 
-})
-console.log(sum);
+// },)
+// console.log(sum);
 
 
+// how to fallten an array 
+
+// const arr = [ ['zone1','zone2',]
+//                ['zone3','zone4']
+//                ['zone5','zone6']
+
+
+// ];
+
+// let flatArr = arr.reduce((accum, currentVal) => {
+//     return accum.concat(currentVal);
+// })
+
+// console.log(flatArr);
+
+// let arr = ["John Doe", ["Lily Rose", 23]];
+
+// // convert nested array into single array
+// let convertedArr = arr.flat();
+
+// console.log(convertedArr); // ["John Doe", "Lily Rose", 23]
+
+
+//  STRINGS IN JAVASCRIPT
+
+// let myName = "Abdul jabbar";
+
+// console.log(myName.length);
+
+// Escap charactere 
+
+// let anysetence = "we are the so-called \"vikings\" from the north";
+
+// console.log(anysetence);
+
+// method indexof 
+
+// const mybio = "I am abdul Jabbar and learning web development ";
+
+// console.log(mybio.indexOf("bb"));
+
+// lastindexof
+// const mybio = "I am abdul Jabbar and learning web development";
+
+// console.log(mybio.lastIndexOf("jabbar"));
+
+
+// search methods 
+
+// lastindexof 
+// const mybio = "I am abdul Jabbar and learning web development";
+  
+// const data = mybio.search("Jabbar");
+// console.log(data);
+
+// Extract method 
+// The slice methodo 
+// The slice() method extracts a part of a string.
+
+// The slice() method returns the extracted part in a new string.
+
+// The slice() method does not change the original string.
+
+// The start and end parameters specifies the part of the string to extract.
+
+// The first position is 0, the second is 1, ...
+
+// A negative number selects from the end of the string.
+
+
+// var str = "ali, ahmed, Jabbar";
+
+// var res =  str.slice(0,10);
+// console.log(res);
+
+
+
+// Q : Display only 280 characters of a string like the one used in twiter 
+
+// let myTweets = "jjkajjsdkljf dfksdjlkfjdslkjflkdsjfkl sdflkjsdspfjkdsjflkdsjlfjsdlksjfds fjjlldsjflksdajfljsd'lklfjsddufpojsdpofewwejfpojdsoifjopdsjfdpodojfpodjfpjdspojfplksdjpofojpoedfpoewokk;klsdafjofjdspsokjfpodspjfposdjf;lkdjsspofdl;kfposdssdopfkdofd;sjfpodsifpokdrpokepopoifposkfjfdopiopewirpoewfpojfpodkjpofide0ripeowpwjrpoewwifi-dskfpoeeur-0eie40rie]opjfpoipodsuf9dsfije0ifodojfpoijdopfi-ewd"
+
+
+// let myActualtweeets = myTweets.slice(0,280);
+
+// console.log(myActualtweeets);
+// console.log(myActualtweeets.length);
+  
+//  what is the substring method 
+
+var str = "Apple ,banana , mango";
+
+let res = str.substring(0,4)
+console.log(res);
