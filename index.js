@@ -873,7 +873,6 @@
 // console.log(anysetence);
 
 // method indexof 
-
 // const mybio = "I am abdul Jabbar and learning web development ";
 
 // console.log(mybio.indexOf("bb"));
@@ -925,8 +924,95 @@
 // console.log(myActualtweeets.length);
   
 //  what is the substring method 
+//   substring is similar to slice()  the differnt is that
+//   substring cannot accept  nagative value 
 
-// var str = "Apple ,banana , mango";
 
-// let res = str.substring(0,4)
+// var str = "Apple,banana, mango";
+
+// let res = str.substring(8,-4)
 // console.log(res);
+
+
+// substr method 
+// substr is similar to slice but 
+// the differnt is that the second parameter specifies the length of the 
+// extracted part 
+
+// var str = "Apple,banana, mango";
+
+// // let res = str.substr(0,5)
+ 
+// let res =str.substr(-5);   //back se data extract ker skty
+
+// console.log(res);
+
+
+
+// Replacing string content 
+
+// replace method replaces a specified value with another value 
+// in string 
+
+// string.prototype.replace(searchfor,replacewith)
+
+
+// let myBio = `I am jabbar`;
+
+// let replaceData = myBio.replace('jabbar','Safyan');
+
+// console.log(replaceData);
+
+// HOW TO EXTRACT METHODS 
+//  charAt
+
+
+// let str = "Abdul Jabbar";
+
+// console.log(str.charAt(0));
+
+
+// charcodeat to define unicode of the character always rturn integers
+
+// let str = "Abdul Jabbar";
+// let lastchr = str.length - 1 ;
+// console.log(str.charCodeAt(lastchr));
+
+// property access 
+
+
+
+// var str = "Hello World";
+
+// console.log(str[5]);
+
+// othr useful methods for string 
+
+// let str = "Abdul Jabbar";
+//  console.log(str.toUpperCase());
+//  console.log(str.toLowerCase());
+
+// concat method 
+
+// let fname = "Abdul";
+// let  lname = "jabbar";
+
+// // console.log(fname.concat(" ",lname));
+// // 
+// console.log(`${fname} ${lname}`);   //ecmascript ma easy ho jata ha 
+
+// String trim method 
+
+// converts the string into an array A string can be converted to 
+// an array with the split method 
+
+// var text = "a,b,c,d,e,f"; // a string
+
+// console.log(text.split(",")); // split on commas
+// console.log(text.split(" ")); //split on spaces
+// console.log(text.split("|")); //split on pipe
+
+
+// DATE AN Time Object 
+
+
