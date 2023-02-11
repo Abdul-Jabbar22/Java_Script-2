@@ -1,0 +1,75 @@
+<!-- Different Between getElementById And querySelector -->
+
+
+
+<!-- What is getElementById-->
+<!-- 
+returns a refrence  to  the element by its ID 
+if the element with the specified ID is not in the document
+it will returns null.
+
+
+
+What is querySelector
+
+returns the first element within the document that matches the specified group of the selectors,
+or null if no matches are found -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<ul>
+    <li id ="web-id">PHP</li>
+    <li>HTMl</li>
+    <li class="web-class">CSS</li>
+    <li class="web-class">JavaScript</li>
+
+</ul>
+
+<script>
+
+    console.log(document.getElementById('web-id').innerHTML);
+    console.log(document.querySelector('#web-id').innerHTML);
+</script>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<ul>
+    <li id ="web-id">PHP</li>
+    <li>HTMl</li>
+    <li class="web-class">CSS</li>
+    <li class="web-class">JavaScript</li>
+
+</ul>
+
+<script>
+
+    console.log(document.querySelector('ul li.web-class').innerHTML);
+    console.log(document.querySelector('li.web-class').innerHTML);
+    console.log(document.querySelector('.web-class').innerHTML);
+    // console.log(document.querySelector('').innerHTML);
+</script>
+    
+</body>
+</html>
