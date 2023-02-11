@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= =p, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="para">  I am abdul Jabbar</p> 
+    <p class="para">  I done MCS two year program</p> 
+    <p>  Now i am doing traing for web</p> 
+<h1 id="heading">change the value of h1 </h1>
+
+<!-- form actiuon -->
+
+<label for="">male</label>
+<input type="radio" name="gender" id="">
+<label for="">female</label>
+<input type="radio" name="gender" id="">
+<label for="">malefemale</label>
+<input type="radio" name="gender" id="">
+
+<br>
+
+
+<button onclick="changeContent()">click me</button>
+
+<script>
+    const changeContent = () => {
+
+//we directly write
+        // document.getElementById('heading').innerHTML = "welcome to me";
+
+        // by taking the refrence, heading is the object here
+        // const headingchange = document.getElementById('heading')
+        // headingchange.innerHTML = "welcome to Abdul jabbar";
+
+    //    console.log(document.getElementsByClassName('para'));
+
+    //   console.log(document.getElementsByName('gender')):
+
+    // document.querySelector('#heading').innerHTML = "i change again";
+    document.querySelector('.para').innerHTML = "i change again";
+
+    }
+</script>
+</body>
+</html>

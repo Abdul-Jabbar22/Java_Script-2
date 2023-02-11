@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>
+    Click the button to display a date after changing
+  </p>
+  <button onlick="myFunction()">Try It</button>
+  
+
+  <p id="demo"></p>
+  <p id="time"></p>
+    
+    <script>
+//   var t =new Date().toLocaleTimeString();
+//    document.getElementById("time").innerHTML = t;
+   
+
+ var d=new Date().toLocaleDateString();
+ document.getElementById("time").innerHTML = d;
+
+
+        // function myFunction(){
+        //     var t = new Date ();
+        //     t.setHours(5);
+        //      document.getElementById("demo").innerHTML = t;
+        // }
+        (function(){
+            setInterval(()=>{
+                var d = new Date ().toLocaleTimeString();
+        
+            document.getElementById("demo").innerHTML = d;
+        },1000)
+        })()
+    </script>
+</body>
+</html>

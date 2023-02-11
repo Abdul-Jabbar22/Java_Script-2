@@ -1015,4 +1015,172 @@
 
 // DATE AN Time Object 
 
+// new Date() creates a date object with the current date and time:
+// Note
+// JavaScript counts months from 0 to 11:
+
+// January = 0.
+
+// December = 11.
+
+// Specifying a month higher than 11, will not result in an error but add the overflow to the next year:
+
+// let currDate = new Date();
+
+// console.log(currDate);
+
+// console.log(new Date()toString());
+
+
+// console.log(Date.now())
+
+// var d = new Date (2023,1,9,11,30,30,0);
+
+// var d = new Date (2023,1,9);
+
+// console.log(d.toLocaleString());
+
+// const currDate = new Date ();
+
+// // how to get individual date 
+
+// console.log(currDate.toLocaleString());
+// console.log(currDate.toFullYear());
+// console.log(currDate.getMonth());
+// console.log(currDate.getDate());
+// console.log(currDate.getDay());
+
+
+// Set Date Methods
+// Set Date methods are used for setting a part of a date:
+
+// Method	Description
+// setDate()	Set the day as a number (1-31)
+// setFullYear()	Set the year (optionally month and day)
+// setHours()	Set the hour (0-23)
+// setMilliseconds()	Set the milliseconds (0-999)
+// setMinutes()	Set the minutes (0-59)
+// setMonth()	Set the month (0-11)
+// setSeconds()	Set the seconds (0-59)
+// setTime()	Set the time (milliseconds since January 1, 1970)
+
+// const curDate = new Date ();
+// // console.log(curDate.setFullYear(2023));
+
+// console.log(curDate.setMonth(0));
+
+// TIME METHODS
+
+// const curTime = new Date ();
+
+// console.log(curTime.getTime());
+
+// console.log(curTime.getHours());
+// console.log(curTime.getMinutes());
+// console.log(curTime.setSeconds());
+// console.log(curTime.getMilliseconds());
+
+// time set metho
+
+// let curTime = new Date ();
+
+
+// // console.log(curTime.setTime());
+// console.log(curTime.setHours(5));
+
+// console.log(curTime.setMinutes(5));
+// console.log(curTime.setSeconds(5));
+// console.log(curTime.setMinutes(5));
+
+// practice time 
+
+
+// new Date().toLocaleTimeString();
+
+// new Date().toLocaleDateString();
+
+// new Date().toLocaleString();
+
+// math Object 
+
+// The Math Object
+// Unlike other objects, the Math object has no constructor.
+
+// The Math object is static.
+
+// All methods and properties can be used without creating a Math object first.
+
+
+
+// console.log(Math.PI);
+
+// math.round 	Returns x rounded to its nearest integer
+
+// let num = 10.5565;
+// console.log(Math.round(num));
+
+// math.pow
+
+// console.log(Math.pow(2,4));
+
+
+// math sqrt 
+ 
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(81));
+// console.log(Math.sqrt(60));
+
+// math abs return positive value
+
+// console.log(Math.abs(-55));
+// console.log(Math.abs(-55.5));
+// console.log(Math.abs(-955));
+// console.log(Math.abs(4-8));
+
+// Math.ceil(x)	Returns x rounded up to its nearest integer
+
+// diff b/t ceil and round
+
+// console.log(Math.ceil(99.1));
+// console.log(Math.round(99.6));
+
+
+// floor mathod 
+
+// console.log(Math.floor(4.7));
+// console.log(Math.floor(4.77));
+// console.log(Math.round(99.6));
+
+
+
+// Math.min
+
+// console.log(Math.min(0,555,54,67,-45));
+
+
+// math max 
+
+// console.log(Math.max(0,555,54,67,-45));
+
+
+// Math.random   returns a random number between 0 (inclusive),  and 1 (exclusive):
+
+// console.log(Math.floor(Math.random()*10));  // 0 to 9 returns
+
+
+// Math.trunc it only return integer part of the number
+
+// console.log(Math.trunc(9.99));
+
+
+
+// do you know
+
+// if the argu is a postitive Number, Math.trunc is equivalent to Math.floor 
+
+// othrwise Math.trunc is equivalent to Math.ceil
+
+
+
+// DOM IN JAVASCRIPT
 
