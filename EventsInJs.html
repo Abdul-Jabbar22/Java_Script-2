@@ -10,3 +10,73 @@ you might want to react to that action by displaying an
   concepts surrounding events, and look at how they
   work in browsers. This won't be an exhaustive study; 
   just what you need to know at this stage. -->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+<div class="container">
+    <h1> Different Events types in JavaScript</h1>
+    <div class="button-container">
+        <div class="button_su">
+            <span class="su_button_circle">
+
+            </span>
+           <a href="#" class="button_su_inner" onclick="alert('I am awsome, but no one use me')"></a>
+     <span class="button_text_container">
+        Simple Inline alert()
+
+     </span>
+    </a>
+        </div>
+
+        <div class="button_su">
+            <span class="su_button_circle">
+            </span>
+            <a href="#" class="button_su_inner" onclick="callingFunction()"></a>
+         <span class="button_te">
+            By calling a function
+         </span>
+        </a>
+        </div>
+    </div>
+</div>\
+
+
+<script>
+    const callingFunction =()=>{()
+        alert('most common use function')
+    }
+
+    //  3rd way of writing function 
+    
+    const thirdWay = document.getElementById('thirdWay');
+   
+     thirdWay.onclick = function(){
+    
+     }
+    
+
+    //  4th way of writing function  
+
+    const fourWay = document.querySelector(#fourWay);
+    
+    fourWay.addEventListner('click', ()=>{
+        alert('I love this way of writing functions')
+    })
+
+
+    fourWay.addEventListner('click',(){
+        console.log("I love this way of writing functions");
+    })
+</script>
+
+  </body>
+  </html>
