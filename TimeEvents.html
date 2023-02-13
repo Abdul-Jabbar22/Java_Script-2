@@ -1,0 +1,57 @@
+<!-- JavaScript Timing Events
+
+Timing Events
+The window object allows execution of code at specified time intervals.
+
+These time intervals are called timing events.
+
+The two key methods to use with JavaScript are:
+
+setTimeout(function, milliseconds)
+Executes a function, after waiting a specified number of milliseconds.
+
+setInterval(function, milliseconds)
+Same as setTimeout(), but repeats the execution of the function continuously.
+The setTimeout() and setInterval() are both methods of the HTML DOM Window object. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- setTimeout  -->
+    
+    <div class="main-div">
+        <div>
+            <p>
+                Want to know my name
+            </p>
+            <p id="showMyname"></p>
+            <br>
+            <button id="btn">click here</button>
+        </div>
+
+    </div>
+    <script>
+        const myName = document.querySelector('#showMyname');
+        const btn = document.querySelector('#btn');
+ 
+        const showMyname =() =>{
+            myName.innerHTML = "loading..."  
+            setTimeout(() =>{
+                myName.innerHTML = "Abdul Jabbar"
+            }, 1000)
+        }
+
+        btn.addEventListener('click',showMyname);
+    </script>
+</body>
+</html>
