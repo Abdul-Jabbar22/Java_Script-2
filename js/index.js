@@ -1182,5 +1182,33 @@
 
 
 
-// DOM IN JAVASCRIPT
+// hoistin in javascript 
+ 
+// hoisting in javascript is a mechanism where variable and function 
+// decleration are moved to the top of their scope before the Code 
+
+
+// for example 
+
+// console.log(myName);
+
+// var myName ;
+
+// myName = "Abdul";
+
+
+// // How it will be in out put during creation phase 
+
+// 1: var myName = undefined ;
+
+// 2: console.log(myName);
+
+// 3: myName = "Abdul"
+  
+// hoisting is avoided by using let keyword instead of var 
+
+// what is Scope chain and lexical scoping in javascript 
+
+
+
 
